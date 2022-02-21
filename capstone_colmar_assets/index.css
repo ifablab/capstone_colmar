@@ -1,0 +1,43 @@
+html {
+  font-family: "Quicksand", sans-serif;
+  width: 90%;
+  height: auto;
+}
+
+header {
+  width: auto
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+ 
+}
+#logo {
+  height: 32px;
+  width: auto;
+  margin-left: 24px;
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+h1 {
+  font-family: "Quicksand";
+  font-size: 15px;
+  color: rgb(172, 162, 162);
+}
+
+h1 strong {
+  font-family: "Quicksand";
+  font-weight: 800;
+  color: black;
+}
+
+.menu {
+  display: inline-flex;
+  list-style-type: none;
+ 
+}
+
+.menu li {
+  margin-right: 16px;
+}
