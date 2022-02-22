@@ -1,43 +1,143 @@
 html {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Quicksand", "Archivo", sans-serif;
   width: 90%;
   height: auto;
 }
 
 header {
-  width: auto
-  height: 64px;
+  width: auto;
+  height: ;
   display: flex;
   flex-direction: row;
- 
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: 2px solid rgb(254, 252, 252);
 }
-#logo {
+.img_logo {
   height: 32px;
   width: auto;
-  margin-left: 24px;
-  display: flex;
-  flex-direction: row;
- 
+}
+#logo {
+  width: auto;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
 }
 
 h1 {
-  font-family: "Quicksand";
-  font-size: 15px;
-  color: rgb(172, 162, 162);
+  font-family: "Alegreya Sans";
+  font-weight: lighter;
+  word-spacing: 0.01em;
+  color: rgb(172, 171, 171);
+  font-size: large;
 }
 
-h1 strong {
-  font-family: "Quicksand";
-  font-weight: 800;
+strong {
+  font-family: "Alegreya Sans";
+  font-weight: 600;
+  margin-right: -2px;
   color: black;
 }
 
 .menu {
-  display: inline-flex;
   list-style-type: none;
- 
+  display: inline-flex;
 }
 
 .menu li {
   margin-right: 16px;
+}
+
+.box_learn {
+  background-color: rgb(210, 208, 208);
+  display: inline-flex;
+  width: 99%;
+}
+.size_one {
+  width: 60%;
+  margin: 32px 24px;
+}
+.article_learn {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  width: 70%;
+}
+.h2_learn {
+  width: 80%;
+  margin: 8px;
+  font-family: "Archivo";
+  font-size: xx-large;
+  font-weight: bolder;
+  text-align: left;
+}
+
+.article_learn p {
+  font-weight: bold;
+}
+.article_learn button {
+  width: 70%;
+  background-color: rgb(66, 65, 65);
+  color: white;
+  padding: 8px;
+}
+.box_learn {
+  border: 2px solid grey;
+}
+.two_colon {
+  display: flex;
+  flex-direction: row;
+}
+.it_doesnt {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.info_main {
+  width: 60%;
+}
+.colon_it {
+  display: flex;
+  flex-direction: column;
+}
+.h2_it {
+  margin: 32px 0 24px;
+}
+.p_it {
+  width: 70%;
+}
+.articles {
+  display: flex;
+  flex-direction: column;
+  border-left: 2px solid rgb(176, 172, 172);
+}
+
+.date,
+.campus,
+.guest {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border-right: 2px solid rgb(188, 184, 184);
+  border-bottom: 4px solid rgb(224, 223, 223);
+}
+.our img {
+  width: 35%;
+  height: auto;
+  margin: 16px;
+}
+.description_date,
+.description_campus,
+.description_guest h4 {
+  color: black;
+}
+
+.guest {
+  background-color: rgba(132, 127, 127, 0.341);
+}
+
+.start {
+  background-color: grey;
 }
