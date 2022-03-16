@@ -6,7 +6,6 @@ html {
 
 header {
   width: auto;
-  height: ;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -139,5 +138,29 @@ strong {
 }
 
 .start {
-  background-color: grey;
+  background-color: greygit;
+  display: flex;
+  flex-direction: column;
+}
+
+.oneColon {
+  display: flex;
+  flex-direction: row;
+}
+.twoColon {
+  display: flex;
+  flex-direction: row;
+}
+.thesis {
+  display: flex;
+  flex-direction: row;
+}
+.reimagine {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.fisma {
+  display: flex;
+  flex-direction: column;
 }
