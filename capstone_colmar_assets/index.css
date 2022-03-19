@@ -164,3 +164,13 @@ strong {
   display: flex;
   flex-direction: column;
 }
+
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+footer ul li {
+  list-style-type: none;
+}
